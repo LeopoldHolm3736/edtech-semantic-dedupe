@@ -1,0 +1,17 @@
+{
+  "name": "edtech-semantic-dedupe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node --experimental-strip-types src/run-example.ts",
+    "test": "node --experimental-strip-types --test src/semantic-dedupe.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.80.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
